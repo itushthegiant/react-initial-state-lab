@@ -15,7 +15,7 @@ export default class Bomb extends Component {
     render() {
         return (
             <div>
-             {secondsLeft} seconds left before I go boom!   
+             {this.state.secondsLeft} seconds left before I go boom!   
             </div>
         )
     }
